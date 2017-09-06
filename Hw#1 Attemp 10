@@ -155,14 +155,19 @@
    },
    "outputs": [],
    "source": [
-    "# Place your code in this cell.  Make sure your comments are appropriate to the code you use.   "
+    "values = [1e6, 1e7, 1e8, 1e9, 1e10] #List of different values of n.\n",
+    "    for value in values:\n",
+    "     print "e=%1.7f" %pi_approx(value) #prints value of pi function to 7th digit"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "_ Provide a justification for your answer using the results from your code here. _"
+    "_ e=3.1415907 _"
+    "_ e=3.1415925 _"
+    "_ e=3.1415926 _"
+    "_ e=3.1415927 _"
    ]
   },
   {
